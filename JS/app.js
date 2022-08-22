@@ -45,10 +45,30 @@ function buyPlayer(element){
 
 document.getElementById('player-per').addEventListener('click', function(){
     const playerName = document.getElementById ('player-btn');
-
     const newPlayerNameString = playerName.value;
     const newPlayerName = parseFloat(newPlayerNameString);
     console.log(newPlayerNameString);
 
+    const www = document.getElementById('ee')
+    const ccc = parseFloat(www.innerText);
+        www.innerText = newPlayerName
+
 })
+
+document.getElementById('calculate-btn').addEventListener('click', function(){
+    const coachName = document.getElementById('coach-cost');
+    const newCoachNameString = coachName.value;
+    const newCoachName = parseFloat(newCoachNameString);
+   
+    const managerName = document.getElementById('manager-cost');
+    const newManagerNameString = managerName.value;
+    const newManagerName = parseFloat(newManagerNameString);
+
+    const qqqqq =  document.getElementById('aa')
+    const ddd = parseFloat(qqqqq.innerText)
+    qqqqq.innerText = newManagerName + newCoachName;
+
+    console.log(ddd);
+})
+
 
