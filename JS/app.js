@@ -38,7 +38,6 @@ document.getElementById('player-per').addEventListener('click', function(){
     const playerExpenses = document.getElementById('playerExpenses');
     const playerExpensesAmaount = parseFloat(playerExpenses.innerText);
     playerExpenses.innerText = newPlayerName * playerArray.length;
-        
 
 })
 
@@ -61,3 +60,12 @@ document.getElementById('calculate-btn').addEventListener('click', function(){
     
 })
 
+var buttons = document.getElementsByClassName('butn');
+    for(let i=0;i<buttons.length;i++){
+
+        buttons[i].addEventListener('click', function(event){
+            // event.target.disabled = true;
+            event.target.setAttribute('disabled',true);       
+
+        });
+    }
