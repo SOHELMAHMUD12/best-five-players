@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgba(0, 0, 0, 0.372); */
-
 }
+/* <!-- <* ------------------------------*> -->
+            <!-- start banner -->
+    <!-- <* ------------------------------*> --> */
 .banner{
    background-image: url(../images/banner.png); 
    height: 480px;
@@ -17,18 +18,27 @@ margin-bottom: -64px;
 .banner2-img{
     margin-top: -200px;
 }
+/* <!-- <* ------------------------------*> -->
+            <!-- end banner -->
+    <!-- <* ------------------------------*> --> */
 
 .players{
     background-color: rgba(0, 0, 0, 0.372) ;
 }
 
+/* <!-- <* ------------------------------*> -->
+            <!-- start footer -->
+    <!-- <* ------------------------------*> --> */
+
 .footer {
     color: white;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.372) ;
-
 }
 
 .footer1 p{
     background-color: transparent;
 }
+/* <!-- <* ------------------------------*> -->
+            <!-- start footer -->
+    <!-- <* ------------------------------*> --> */
